@@ -48,7 +48,6 @@ export default function RootLayout({
 					</Providers>
 				)}
 				<Toaster />
-				<InitSdk />
 			</body>
 		</html>
 	);

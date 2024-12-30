@@ -38,8 +38,8 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function HomePage() {
-	if (CAST_LANDING_PAGE) {
-		return <LandingPageHome />;
-	}
+	// if (CAST_LANDING_PAGE) {
+	// 	return <LandingPageHome />;
+	// }
 	return <Home />;
 }
